@@ -2,12 +2,30 @@
 
 ## 📌 Deskripsi Project
 
-Project ini merupakan website portofolio statis yang dibuat menggunakan HTML, CSS, dan Bootstrap 5.  
+Project ini merupakan pengembangan dari website portofolio statis menjadi website dinamis menggunakan PHP dan MySQL.
 Website ini menampilkan profil seorang public figure dalam format portofolio digital dengan beberapa section utama, yaitu Home, About Me, dan Certificates.
+
+Pada versi ini, seluruh data seperti profil, skills, dan certificates tidak lagi ditulis secara langsung di dalam kode, melainkan diambil dari database sehingga lebih fleksibel dan mudah dikelola.
+
+Pengembangan dilakukan menggunakan Laragon sebagai server lokal dan phpMyAdmin untuk mengelola database.
 
 Website dirancang dengan tampilan yang rapi, modern, serta responsif sehingga dapat diakses dengan baik melalui desktop maupun perangkat mobile.
 
 ---
+
+Perubahan dari Statis ke Dinamis
+
+Perubahan utama pada project ini:
+
+❌ Sebelumnya: Data ditulis langsung di HTML (hardcode)
+✅ Sekarang: Data diambil dari database menggunakan PHP
+
+Keuntungan:
+
+Data bisa diubah tanpa edit kode
+Lebih efisien dan fleksibel
+Sesuai konsep website modern
+
 
 ## 🏠 Section Home (Hero Section)
 
@@ -129,6 +147,10 @@ Website ini bersifat statis (tidak menggunakan database atau backend).
 - HTML5
 - CSS3
 - Bootstrap 5
+- PHP
+- MySQL
+- Laragon
+- phpMyAdmin
 
 ---
 
